@@ -19,7 +19,7 @@ public class CustomerService {
         return customerRepository.save(customer);
     }
 
-    public Optional<Customer> findById(Long id) {
+    public Optional<Customer> findById(String id) {
         return customerRepository.findById(id);
     }
 
@@ -27,7 +27,7 @@ public class CustomerService {
         return customerRepository.findAll(pageable);
     }
 
-    public void deleteById(Long id) {
+    public void deleteById(String id) {
         customerRepository.deleteById(id);
     }
 }
