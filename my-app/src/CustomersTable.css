@@ -1,0 +1,100 @@
+.customers-table-container {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-customer-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-select, .search-input, .search-button {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .search-input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .customers-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customers-table th, .customers-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers-table th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+  }
+  
+  .customer-row:hover .action-buttons {
+    visibility: visible;
+  }
+  
+  .action-buttons {
+    visibility: hidden;
+  }
+  
+  .delete-button, .edit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .delete-button {
+    color: red;
+  }
+  
+  .edit-button {
+    color: yellow;
+    margin-left: 10px;
+  }
+  /* src/CustomersTable.css */
+.sync-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .sync-button:hover {
+    background-color: #0056b3;
+  }
+  
